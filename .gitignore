@@ -1,0 +1,3 @@
+dist/
+.publish-stage/
+*.tar.gz

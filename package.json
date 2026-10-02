@@ -1,0 +1,10 @@
+{
+  "name": "spaced-interleaved-retrieval-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-site.mjs",
+    "test": "node outputs/run-qa.cjs"
+  }
+}

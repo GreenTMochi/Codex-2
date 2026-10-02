@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS calendar_feeds (
+  token TEXT PRIMARY KEY NOT NULL,
+  user_email TEXT UNIQUE NOT NULL,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_email) REFERENCES user_state(user_email) ON DELETE CASCADE
+);
